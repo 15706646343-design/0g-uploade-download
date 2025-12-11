@@ -5,22 +5,9 @@ go 1.25.4
 toolchain go1.25.4
 
 require (
-	github.com/ethereum/go-ethereum v1.15.11
-	github.com/fatih/color v1.16.0
-	github.com/gin-contrib/cors v1.7.2
-	github.com/gin-gonic/gin v1.10.0
-	github.com/go-playground/validator/v10 v10.22.0
-	github.com/google/btree v1.1.2
-	github.com/hashicorp/golang-lru/v2 v2.0.7
-	github.com/mcuadros/go-defaults v1.2.0
-	github.com/openweb3/go-rpc-provider v0.3.6
-	github.com/openweb3/web3go v0.2.9
-	github.com/pkg/errors v0.9.1
-	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v1.8.1
-	github.com/stretchr/testify v1.10.0
-	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
-	gotest.tools v2.2.0+incompatible
+	github.com/0gfoundation/0g-storage-client v1.2.1
+	github.com/joho/godotenv v1.5.1
+	github.com/spf13/cobra v1.10.1
 )
 
 require (
@@ -137,4 +124,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
+
 
