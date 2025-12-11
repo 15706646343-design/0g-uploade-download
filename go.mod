@@ -1,8 +1,8 @@
 module github.com/0gfoundation/0g-storage-client
 
-go 1.23.0
+go 1.25.4
 
-toolchain go1.23.10
+toolchain go1.25.4
 
 require (
 	github.com/ethereum/go-ethereum v1.15.11
@@ -137,3 +137,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
+
